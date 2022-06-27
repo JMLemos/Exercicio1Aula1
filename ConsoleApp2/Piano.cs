@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Piano
+    internal class Piano : Instrument
     { 
-
         public string Type { get; set; }
         public int NumKeys { get; set; }
         public bool IsEletric { get; set; }
